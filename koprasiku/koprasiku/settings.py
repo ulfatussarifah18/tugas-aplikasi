@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'rest_framework',
     'anggota',
     'pinjaman',
+    'simpanan',
 ]
 
 MIDDLEWARE = [

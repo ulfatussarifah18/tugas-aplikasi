@@ -4,4 +4,4 @@ from .models import pinjaman
 class pinjamanSerializer(serializers.ModelSerializer):
     class Meta:
         model = pinjaman 
-        fields = ['nama', 'nomor_hp','jenis_simpanan', 'jumlah_simpanan', 'tanggal_simpanan']
+        fields = ['nama', 'nomor_hp','jumlah_pinjaman', 'jangka_waktu', 'tanggal_pinjaman','status_pinjaman']
