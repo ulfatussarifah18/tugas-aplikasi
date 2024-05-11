@@ -12,14 +12,14 @@ class Migration(migrations.Migration):
 
     operations = [
         migrations.CreateModel(
-            name='Anggota',
+            name='pinjaman',
             fields=[
                 ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
                 ('nama', models.CharField(max_length=100)),
                 ('nomor_hp', models.CharField(max_length=15, unique=True)),
-                ('email', models.EmailField(max_length=254, unique=True)),
-                ('tanggal_lahir', models.DateField()),
-                ('tanggal_bergabung', models.DateField(auto_now_add=True)),
+                ('jenis_simpanan', models.CharField(max_length=100)),
+                ('jumlah_simpanan', models.DateField()),
+                ('tanggal_simpanan', models.DateField(auto_now_add=True)),
             ],
         ),
     ]
