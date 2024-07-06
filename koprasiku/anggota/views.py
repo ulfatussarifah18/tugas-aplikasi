@@ -5,6 +5,7 @@ from .models import Anggota
 from .serializers import AnggotaSerializer
 
 
+
 @api_view(['GET', 'POST'])
 def Anggota_list(request):
     if request.method == 'GET':

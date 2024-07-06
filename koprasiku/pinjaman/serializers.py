@@ -1,7 +1,7 @@
 from rest_framework import serializers
-from .models import pinjaman
+from .models import Pinjaman
 
-class pinjamanSerializer(serializers.ModelSerializer):
+class PinjamanSerializer(serializers.ModelSerializer):
     class Meta:
-        model = pinjaman 
+        model = Pinjaman 
         fields = ['nama', 'nomor_hp','jumlah_pinjaman', 'jangka_waktu', 'tanggal_pinjaman','status_pinjaman']

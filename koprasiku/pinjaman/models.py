@@ -1,7 +1,7 @@
 from django.db import models
 from anggota.models import Anggota
 
-class pinjaman(models.Model):
+class Pinjaman(models.Model):
     nama= models.ForeignKey(Anggota, related_name='pinjaman', on_delete=models.CASCADE)
     nomor_hp = models.CharField(max_length=15, unique=True)
     jumlah_pinjaman= models.CharField(max_length=100)
