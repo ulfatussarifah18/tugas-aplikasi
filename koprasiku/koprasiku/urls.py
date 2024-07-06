@@ -6,4 +6,5 @@ urlpatterns = [
     path('api/', include ('anggota.urls')),
     path('', include ('pinjaman.urls')),
     path('', include('simpanan.urls')),
+    path('', include('Investasi.urls')),
 ]

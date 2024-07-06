@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'anggota',
     'pinjaman',
     'simpanan',
+    'Investasi',
 ]
 
 MIDDLEWARE = [
